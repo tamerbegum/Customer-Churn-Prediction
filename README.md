@@ -1,6 +1,10 @@
 Customer Churn Prediction
 =========================
 
+![Customer-Churn](https://github.com/user-attachments/assets/f78449b9-1310-4b83-9f57-44bff6c9902e)
+
+
+
 Overview
 --------
 This project involves predicting customer churn based on various customer attributes and service details. The dataset is from Kaggle and includes information on customer behavior, service usage, account details, and demographics.
@@ -57,19 +61,16 @@ The script performs the following tasks:
    - The ROC curve is plotted to visualize the model's ability to distinguish between positive and negative classes. The area under the ROC curve (AUC) is used to summarize the overall performance of the model.
    - The learning curve is plotted to visualize how the model's performance changes with the size of the training data. It helps in understanding if the model is overfitting or underfitting.
 
+## Final Model Testing
+Tested the final model using the best-found parameters on the test set and evaluated its performance.
 
-Instructions
-------------
-1. **Setup:**
-   - Install the required libraries:
-     ::
-       pip install numpy pandas matplotlib seaborn scikit-learn catboost xgboost shap
+## Results
+The Logistic Regression model was found to perform best, achieving the highest ROC AUC score during the model evaluation process. The model effectively predicts which customers are likely to churn based on the provided attributes.
 
-2. **Data File:**
-   - Place the `Telco-Customer-Churn.csv` file in the same directory as this script.
+## How to Run
 
-3. **Run the Script:**
-   - Execute the script in your Python environment (e.g., Jupyter Notebook, PyCharm).
-
-4. **Review Results:**
-   - Check the output metrics and visualizations to assess model performance and feature importance.
+### 1. Clone this repository:
+1. Clone this repository: git clone https://github.com/yourusername/Customer-Churn-Prediction.git
+2. Install the necessary dependencies using:
+   ```bash
+   pip install -r requirements.txt
