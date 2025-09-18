@@ -70,7 +70,7 @@ The Logistic Regression model was found to perform best, achieving the highest R
 ## How to Run
 
 ### 1. Clone this repository:
-1. Clone this repository: git clone https://github.com/yourusername/Customer-Churn-Prediction.git
+1. Clone this repository: git clone ```https://github.com/tamerbegum/Customer-Churn-Prediction```
 2. Install the necessary dependencies using:
-   ```bash
+   ```
    pip install -r requirements.txt
